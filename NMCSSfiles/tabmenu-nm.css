@@ -1,0 +1,90 @@
+/*Nav bar*/
+/* For demo purposes to push the nav bar down */
+body { margin: 3em; }
+/* End */
+
+nav ul {
+    border: 2px solid #e3e3e3;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    left: 405px;
+    top: 125px;
+    background: #282B30;
+    z-index: 999;
+}
+nav li {
+    position: relative;
+    display: inline-block;
+    margin: 0 3px;
+}
+nav li:nth-of-type(1) {
+  opacity: 1 !important;
+}
+nav li a {
+    display: block;
+    height: 35px;
+    position: relative;
+    text-indent: -9999em;
+    white-space: nowrap;
+    width: 34px;
+    margin: 0;
+    background: url(../sprites/tabmenu.png) no-repeat;
+}
+nav li:hover { opacity: 1;}
+nav li:nth-child(1) a {background-position: 0 0 !important;}
+nav li:nth-child(2) a {background-position: -34px 0 !important;}
+nav li:nth-child(3) a {background-position: -68px 0 !important;}
+nav li:nth-child(4) a {background-position: -102px 0 !important;}
+nav li:nth-child(5) a {background-position: -136px 0 !important;}
+nav li:nth-child(6) a {background-position: -170px 0 !important; }
+nav li:nth-child(7) a { background-position: -204px 0 !important; }
+nav li:nth-child(8) a { background-position: -238px 0 !important;}
+nav li:nth-child(9) a { background-position: -272px 0 !important; }
+nav li:nth-child(10) a { background-position: -306px 0 !important; }
+nav li:nth-child(11) a { background: #987; }
+
+nav li {
+  opacity: 0.6;
+}
+/* Hover text */
+nav li a:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    background: rgba(255,255,255,.25);
+    border-radius: 3px;
+    color: #fff !important;
+    margin-bottom: 8px;
+    opacity: 0;
+    padding: 2px 4px;
+    text-indent: 0;
+    transform: translateX(-50%);
+    transition: opacity .3s;
+    visibility: hidden;
+    white-space: nowrap;
+    font-family: Verdana, Geneva, sans-serif !important;
+    font-size: 12px;
+}
+nav li:hover a:after {
+    opacity: 1;
+    visibility: visible;
+}
+nav li:nth-child(1) a:after { content: 'Home'; }
+nav li:nth-child(2) a:after { content: 'Gen I'; }
+nav li:nth-child(3) a:after { content: 'Gen II'; }
+nav li:nth-child(4) a:after { content: 'Gen III'; }
+nav li:nth-child(5) a:after { content: 'Gen IV'; }
+nav li:nth-child(6) a:after { content: 'Gen V'; }
+nav li:nth-child(7) a:after { content: 'Gen VI'; }
+nav li:nth-child(8) a:after { content: 'Gen VII'; }
+nav li:nth-child(9) a:after { content: 'Criminal Organisations'; }
+nav li:nth-child(10) a:after { content: 'Pokemon League'; }
+nav li:nth-child(11) a:after { content: "Author's Page"; }
+
+/*End Nav bar*/

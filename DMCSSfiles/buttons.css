@@ -1,0 +1,85 @@
+/*Social media styling*/
+.side .sidebarcontent a[href="index.html"] {
+  font-family: Arial, Verdana, Helvetica, sans-serif !important;
+  text-decoration: none;
+  color: #ea8f24;
+  font-weight: bold;
+  border: 1px solid #ea8f24;
+  padding: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 50px !important;
+  margin: 0 !important;
+  left: 10px;
+  position: relative;
+  top: 0px;
+}
+.side .sidebarcontent a[href="index.html"]:before {
+  content: "" !important;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  background: url(../images/sunmodelogo.png) !important;
+  margin-right: 5px;
+  margin-bottom: -11px;
+  position: relative;
+  margin-left: -5px;
+  top: 3px;
+}
+.side .sidebarcontent a[href="index-nm.html"] {
+  font-family: Arial, Verdana, Helvetica, sans-serif !important;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  left: 20px !important;
+  padding: 15px;
+  border: 1px solid #57aad4;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 0;
+  left: 10px;
+  top: 0px;
+  margin-bottom: 10px !important;
+}
+.side .sidebarcontent a[href="index-nm.html"]:before {
+  content: "" !important;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  background: url(../images/moonmodelogo.png) !important;
+  margin-right: 5px;
+  margin-bottom: -11px;
+  position: relative;
+  margin-left: -5px;
+  top: 3px;
+}
+a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"] {
+  text-indent: -9999px !important;
+  background-image: url(../images/rsz_twitter-logo-final.png) !important;
+  display: block;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: -187px !important;
+  left: 85px;
+  z-index: 999;
+  border: none;
+  opacity: 0.6;
+}
+a[href="https://www.instagram.com/pokemon/"] {
+  text-indent: -9999px;
+  background-image: url(../images/instagramlogo.png);
+  display: block;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: -254px;
+  left: 120px;
+  z-index: 999 !important;
+  opacity: 0.5;
+}
+a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"]:hover, a[href="https://www.instagram.com/pokemon/"]:hover {
+  opacity: 1;
+}

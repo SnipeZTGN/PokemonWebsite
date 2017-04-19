@@ -1,0 +1,63 @@
+.pokemonlogo {
+  text-indent: -9999px;
+  background: url(../sprites/rsz_1pokemonlogo.png) no-repeat !important ;
+  background-position: center center !important;
+  padding-bottom: 20px !important;
+  padding-top: -10px !important;
+  height: 60px !important;
+  width: 385px !important;
+  border-bottom: 1px solid #c7c7c7 !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  left: -31px !important;
+  position: relative;
+  top: -10px !important;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.maincontent {
+  margin-left: 5px;
+  border: 2px solid #e3e3e3;
+  width: 870px;
+  position: relative;
+  top: -40px;
+}
+.webnav:before, .webnav:after {
+  background-position:  -144px 0 !important;
+  width: 28px !important;
+  height: 25px;
+  margin: 0;
+}
+.webnav:after {
+  top: 6px !important;
+}
+.webnav {
+  padding-top: -10px !important;
+}
+.side .sidebarcontent h1:nth-of-type(3) {
+  margin-top: 30px;
+}
+.side .sidebarcontent h1:after {
+  left: 10px !important;
+}
+.side .sidebarcontent p {
+  text-align: center;
+  font-size: 12px;
+}
+.side .sidebarcontent p:nth-of-type(2) {
+  margin-bottom: 10px !important;
+  padding: -5px;
+}
+.modbox h1:before, .modbox h1:after {
+  background-position: 0 0 !important;
+}
+.DandN:before {
+  background-position: -96px 0 !important;
+}
+.DandN:after {
+  background-position: -48px 0 !important;
+}
+.friends:before, .friends:after {
+  background-position: -24px 0 !important;
+}
