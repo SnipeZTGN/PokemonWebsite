@@ -22,9 +22,6 @@ nav li {
     display: inline-block;
     margin: 0 3px;
 }
-nav li:nth-of-type(1) {
-  opacity: 1 !important;
-}
 nav li a {
     display: block;
     height: 35px;
