@@ -3,6 +3,7 @@
 /*---------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 @import url("DMCSSfiles/sidebarcommon.css");
 @import url("DMCSSfiles/flairs.css");
 @import url("DMCSSfiles/timetable.css");
@@ -10,6 +11,7 @@
 @import url("DMCSSfiles/sidebarheaders.css");
 @import url("DMCSSfiles/buttons.css");
 @import url("DMCSSfiles/sidebarwebnav.css");
+
 
 /*header*/
 #header {
