@@ -59,13 +59,12 @@ a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwg
   color: #57aad4;
   text-decoration: none;
   position: relative;
-  left: 20px !important;
+  left: 20px;
   padding: 15px;
   border: 1px solid #57aad4;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   margin: 0;
-  left: 10px;
   top: 0px;
 }
 .side .sidebarcontent a[href="index-nm.html"]:before {
