@@ -165,6 +165,7 @@
   top:-25px!important;
   right:102px!important;
   left:-45px;
+  pointer-events: none;
 }
 .tagline .flair:after {
   content: '' !important;
@@ -175,6 +176,7 @@
   left: 202px;
   top: -14px;
   background: url(../sprites/sideflairs.png);
+  pointer-events: none;
 }
 .flair, .flair:before, .flair:after {
   z-index: 999 !important;
@@ -184,6 +186,8 @@
   left: 141px !important;
   top: 13px !important;
   position: absolute;
+  cursor: pointer;
+  pointer-events: none;
 }
 .author:hover {
   text-decoration: underline;
