@@ -137,14 +137,14 @@
 .content .author[href="#Jayden3.0"]~.flair:after {
   background: url(../sprites/Garchompite.png)
 }
-/*Author Indicator*/ 
+/*Author Indicator*/
 .tagline .author {
   width: 280px !important;
   height: 36px !important;
   background: url(../sprites/FlairBG.png);
   position: absolute;
-  left: 100px !important;
-  top: -15px;
+  left: 96px !important;
+  top: -7px;
   z-index: 50;
   box-sizing: border-box;
   white-space: nowrap;
@@ -159,10 +159,12 @@
   height: 32px;
   width: 32px;
   background: url(../sprites/userflairs.png);
-  top: -16px !important;
   right: 90px;
   margin: 0;
   padding: 0;
+  top:-25px!important;
+  right:102px!important;
+  left:-45px;
 }
 .tagline .flair:after {
   content: '' !important;
@@ -179,15 +181,15 @@
   position: absolute;
 }
 .tagline .flair {
-  left: 145px !important;
-  top: 5px !important;
+  left: 141px !important;
+  top: 13px !important;
   position: absolute;
 }
 .author:hover {
   text-decoration: underline;
 }
 /*Author Styling*/
-.tagline .author[href="#authorspageJ"]~.flair:before{background:url(../sprites/Jaydenflair.png)!important;height:50px!important;width:50px!important;top:-35px!important;right:90px!important}.tagline .author[href="#authorspageJ"]~.flair:after{background:url(../sprites/balls.png) -119px -128px;left:197px;top:-17px}.tagline .author[href="#authorspageJ"]{background-position:0 -180px}.tagline .author[href="#authorspageJ"]{font-weight:700;font-size:10px;position:absolute;font-family:Verdana,Geneva,sans-serif!important;text-align:left}.tagline .author[href="#authorspageJ"]{background-position:0 -180px;font-weight:700;font-size:10px;position:absolute;font-family:Verdana,Geneva,sans-serif!important;text-align:left}.tagline .author[href="#authorspageA"]{background-position:0 -72px;color:#fff!important}.tagline .author[href="#authorspageA"]~.flair:before{background-position:-192px 0;top:-25px!important;right:102px!important;left:-45px;width:33px}.tagline .author[href="#authorspageA"]~.flair:after{background-position:-48px 0}
+.tagline .author[href="#authorspageJ"]~.flair:before{background:url(../sprites/Jaydenflair.png)!important;height:50px!important;width:50px!important;top:-34px!important;right:90px!important;left:-50px;}.tagline .author[href="#authorspageJ"]~.flair:after{background:url(../sprites/balls.png) -119px -128px;left:197px;top:-17px}.tagline .author[href="#authorspageJ"]{background-position:0 -180px}.tagline .author[href="#authorspageJ"]{font-weight:700;font-size:10px;position:absolute;font-family:Verdana,Geneva,sans-serif!important;text-align:left}.tagline .author[href="#authorspageJ"]{background-position:0 -180px;font-weight:700;font-size:10px;position:absolute;font-family:Verdana,Geneva,sans-serif!important;text-align:left}.tagline .author[href="#authorspageA"]{background-position:0 -72px;color:#fff!important}.tagline .author[href="#authorspageA"]~.flair:before{background-position:-192px 0;width:33px}.tagline .author[href="#authorspageA"]~.flair:after{background-position:-48px 0}
 
 /*.content a[href="#authorspageJ"]~.flair:before{background:url(../sprites/userflairs.png) -160px 0}*/
 
