@@ -26,7 +26,7 @@ a[href="https://www.instagram.com/pokemon/"] {
 a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"]:hover, a[href="https://www.instagram.com/pokemon/"]:hover {
   opacity: 1;
 }
-.side .sidebarcontent a[href="index.html"] {
+.side .sidebarcontent .dmbutton {
   font-family: Arial, Verdana, Helvetica, sans-serif !important;
   text-decoration: none;
   color: rgba(255,255,255,.7);
@@ -40,7 +40,7 @@ a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwg
   position: relative;
   top: 0px;
 }
-.side .sidebarcontent a[href="index.html"]:before {
+.side .sidebarcontent .dmbutton:before {
   content: "" !important;
   width: 40px;
   height: 40px;
@@ -53,7 +53,7 @@ a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwg
   margin-left: -5px;
   top: 3px;
 }
-.side .sidebarcontent a[href="index-nm.html"] {
+.side .sidebarcontent .nmbutton {
   font-family: Arial, Verdana, Helvetica, sans-serif !important;
   font-weight: bold;
   color: #57aad4;
@@ -67,7 +67,7 @@ a[href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwg
   margin: 0;
   top: 0px;
 }
-.side .sidebarcontent a[href="index-nm.html"]:before {
+.side .sidebarcontent .nmbutton:before {
   content: "" !important;
   width: 40px;
   height: 40px;

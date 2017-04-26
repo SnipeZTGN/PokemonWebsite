@@ -24,6 +24,12 @@
   position: relative;
   top: -40px;
 }
+.webnav:before, .webnav:after {
+  background-position:  -144px 0 !important;
+  width: 28px !important;
+  height: 25px;
+  margin: 0;
+}
 .modbox h1:before,.modbox h1:after {
   background-position: 0 0 !important;
 }
